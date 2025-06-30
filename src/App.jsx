@@ -27,13 +27,27 @@ function App() {
               href="https://sahrul-dwann.github.io/sahrul-linktree/"
               className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
             >
-              More Info <i className="ri-download-line ri-lg"></i>
+              More Info <i className="ri-info-card-line ri-lg"></i>
             </a>
             <a
               href="#proyek"
               className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
             >
               Lihat Proyek <i className="ri-arrow-down-line ri-lg"></i>
+            </a>
+          </div>
+          <div className="flex items-center gap-3 m-5">
+            <a
+              href="https://github.com/sahrul-dwann"
+              className="w-10 h-10 rounded-full flex justify-center items-center border hover:border-violet-600 hover:bg-violet-600 hover:text-white"
+            >
+              <i className="ri-github-fill ri-2x"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/efendi-sahrul/"
+              className="w-10 h-10 rounded-full flex justify-center items-center border hover:border-violet-600 hover:bg-violet-600 hover:text-white"
+            >
+              <i className="ri-linkedin-box-fill ri-2x"></i>
             </a>
           </div>
         </div>

@@ -20,9 +20,7 @@ const Navbar = () => {
   return (
     <div className="navbar py-7 flex items-center justify-between">
       <div className="Logo">
-        <h1 className="text-4xl font-bold text-white p-1">
-          Portofolio
-        </h1>
+        <h1 className="text-4xl font-bold text-white p-1">Portofolio</h1>
       </div>
       <ul
         className={`menu flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 md:-translate-x-0 md:opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl  md:bg-transparent transition-all md:transition-none z-40 ${
@@ -30,22 +28,34 @@ const Navbar = () => {
         }`}
       >
         <li>
-          <a href="#beranda" className="sm:text-lg text-base font-medium">
+          <a
+            href="#beranda"
+            className="sm:text-lg text-base font-medium hover:text-violet-600"
+          >
             Beranda
           </a>
         </li>
         <li>
-          <a href="#tentang" className="sm:text-lg text-base font-medium">
+          <a
+            href="#tentang"
+            className="sm:text-lg text-base font-medium hover:text-violet-600"
+          >
             Tentang
           </a>
         </li>
         <li>
-          <a href="#proyek" className="sm:text-lg text-base font-medium">
+          <a
+            href="#proyek"
+            className="sm:text-lg text-base font-medium hover:text-violet-600"
+          >
             Proyek
           </a>
         </li>
         <li>
-          <a href="#kontak" className="sm:text-lg text-base font-medium">
+          <a
+            href="#kontak"
+            className="sm:text-lg text-base font-medium hover:text-violet-600"
+          >
             Kontak
           </a>
         </li>
