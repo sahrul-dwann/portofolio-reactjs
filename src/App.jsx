@@ -19,8 +19,8 @@ function App() {
           <p className="text-base/loose mb-6 opacity-50">
             Saya mempunyai ketertarikan dalam bidang Programming dan Designer,
             terutama pada pembuatan Website dan Desain Website, Saya terbiasa
-            menggunakan teknologi seperti HTML, CSS, JavaScript, dan framework
-            seperti react JS untuk membangun sistem berbasis web.
+            menggunakan teknologi seperti HTML, CSS, JavaScript, PHP, dan framework
+            seperti reactJS, dan Laravel untuk membangun sistem berbasis web.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
@@ -81,12 +81,7 @@ function App() {
             </div>
           </div>
           <p className="text-base/loose">
-            Mahasiswa aktif Program Studi Teknologi Informasi yang fokus pada
-            pengembangan website (web development) dan desain antarmuka pengguna
-            (UI/UX design). Saya telah mengikuti berbagai proyek dan pelatihan
-            untuk memperkuat kemampuan dalam membangun website yang responsif
-            dan menarik. Bagi saya, desain dan fungsionalitas harus seimbang
-            agar dapat menciptakan pengalaman pengguna yang optimal.
+            Mahasiswa aktif Program Studi Teknologi Informasi yang fokus pada pengembangan website (web development) dan desain antarmuka pengguna (UI/UX design). Memiliki pengalaman magang sebagai Web Developer Intern dengan menggunakan framework Laravel dalam pengembangan dan pengelolaan website. Saya telah mengikuti berbagai proyek dan pelatihan untuk memperkuat kemampuan dalam membangun website yang responsif, fungsional, dan menarik. Bagi saya, desain dan fungsionalitas harus seimbang agar dapat menciptakan pengalaman pengguna yang optimal.
           </p>
         </div>
 

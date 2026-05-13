@@ -16,9 +16,10 @@ import Tools5 from "/assets/tools/bootstrap.png";
 import Tools6 from "/assets/tools/js.png";
 import Tools7 from "/assets/tools/nodejs.png";
 import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
+import Tools9 from "/assets/tools/laravel.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
+import Tools12 from "/assets/tools/mysql.png";
 
 export const listTools = [
   {
@@ -80,8 +81,8 @@ export const listTools = [
   {
     id: 9,
     gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
+    nama: "Laravel",
+    ket: "Framework",
     dad: "900",
   },
   {
@@ -98,6 +99,13 @@ export const listTools = [
     ket: "Design App",
     dad: "1100",
   },
+  {
+    id: 12,
+    gambar: Tools12,
+    nama: "MY SQL",
+    ket: "DataBase",
+    dad: "1100",
+  },
 ];
 
 import Proyek1 from "/assets/proyek/proyek1.png";
@@ -108,6 +116,7 @@ import Proyek5 from "/assets/proyek/proyek5.png";
 import Proyek6 from "/assets/proyek/proyek6.png";
 import Proyek7 from "/assets/proyek/proyek7.png";
 import Proyek8 from "/assets/proyek/proyek8.png";
+import Proyek9 from "/assets/proyek/proyek9.png";
 
 export const listProyek = [
   {
@@ -180,6 +189,14 @@ export const listProyek = [
     desk: "Project freelance membuat aplikasi bank sampah menggunkan Figma.",
     tools: ["Figma"],
     link: "https://www.figma.com/proto/n2gtYTV3y3Np33TgKTTnlE/Tugas-Akhir?node-id=2-2&p=f&t=TepEFOHTJgWOtWnt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2",
+    dad: "900",
+  },
+  {
+    id: 9,
+    gambar: Proyek9,
+    nama: "DEV ANTARA",
+    desk: "Website internal Badan Standardisasi Nasional (BSN).",
+    tools: ["Laravel", "Bootstrap", "Javascript", "My SQL", "PHP"],
     dad: "900",
   },
 ];
