@@ -117,6 +117,7 @@ import Proyek6 from "/assets/proyek/proyek6.png";
 import Proyek7 from "/assets/proyek/proyek7.png";
 import Proyek8 from "/assets/proyek/proyek8.png";
 import Proyek9 from "/assets/proyek/proyek9.png";
+import Proyek10 from "/assets/proyek/proyek10.png";
 
 export const listProyek = [
   {
@@ -131,28 +132,28 @@ export const listProyek = [
   {
     id: 2,
     gambar: Proyek2,
-    nama: "Project Course",
-    desk: "Sebuah project Course website untuk mendalami bagaimana cara belajar React Js & TailwindCSS.",
-    tools: ["Javascript", "Tailwind CSS", "React JS"],
-    link: "https://project-course-mu.vercel.app/",
+    nama: "DEV ANTARA",
+    desk: "Website internal Badan Standardisasi Nasional (BSN).",
+    tools: ["Laravel", "Bootstrap", "Javascript", "My SQL", "PHP"],
+    link: "https://devantara.bsn.go.id/",
     dad: "300",
   },
   {
     id: 3,
     gambar: Proyek3,
-    nama: "Travell",
-    desk: "Sebuah project website responsive yang dibangun untuk tugas kuliah Web Programing.",
-    tools: ["AlpineJS", "Tailwind CSS", "JavaScript"],
-    link: "https://sahrul-dwann.github.io/travel-tailwind-css/",
+    nama: "E- Commerce Alat Teknik",
+    desk: "Sebuah project website penjualan alat teknik.",
+    tools: ["PHP", "Tailwind CSS", "JavaScript", "My SQL", "Bootstrap", "Laravel", "Filament"],
+    link: "",
     dad: "400",
   },
   {
     id: 4,
     gambar: Proyek4,
-    nama: "Fast Foods",
+    nama: "Travell",
     desk: "Sebuah project website responsive yang dibangun untuk tugas kuliah Web Programing.",
-    tools: ["HTML", "CSS", "JavaScript"],
-    link: "https://sahrul-dwann.github.io/fast-foods/",
+    tools: ["AlpineJS", "Tailwind CSS", "JavaScript"],
+    link: "https://sahrul-dwann.github.io/travel-tailwind-css/",
     dad: "500",
   },
   {
@@ -194,9 +195,19 @@ export const listProyek = [
   {
     id: 9,
     gambar: Proyek9,
-    nama: "DEV ANTARA",
-    desk: "Website internal Badan Standardisasi Nasional (BSN).",
-    tools: ["Laravel", "Bootstrap", "Javascript", "My SQL", "PHP"],
-    dad: "900",
+    nama: "Project Course",
+    desk: "Sebuah project Course website untuk mendalami bagaimana cara belajar React Js & TailwindCSS.",
+    tools: ["Javascript", "Tailwind CSS", "React JS"],
+    link: "https://project-course-mu.vercel.app/",
+    dad: "1000",
   },
+  {
+    id: 10,
+    gambar: Proyek10,
+    nama: "Fast Foods",
+    desk: "Sebuah project website responsive yang dibangun untuk tugas kuliah Web Programing.",
+    tools: ["HTML", "CSS", "JavaScript"],
+    link: "https://sahrul-dwann.github.io/fast-foods/",
+    dad: "1100",
+  }
 ];
