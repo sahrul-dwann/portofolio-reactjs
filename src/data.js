@@ -141,8 +141,8 @@ export const listProyek = [
   {
     id: 3,
     gambar: Proyek3,
-    nama: "E- Commerce Alat Teknik",
-    desk: "Sebuah project website penjualan alat teknik.",
+    nama: "E-Commerce Alat Teknik",
+    desk: "Sebuah project website penjualan alat-alat teknik.",
     tools: ["PHP", "Tailwind CSS", "JavaScript", "My SQL", "Bootstrap", "Laravel", "Filament"],
     link: "",
     dad: "400",
